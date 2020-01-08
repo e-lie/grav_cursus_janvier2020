@@ -1,0 +1,30 @@
+enabled: true
+folders:
+  - pages
+  - themes
+  - plugins
+  - config
+  - data
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+repository: 'https://framagit.org/e-lie/grav_devops.git'
+user: e-lie
+password: gitsync-def50200d4e2728c3d2bc56ade4eb2739ea339d4dbc7738260027a09f569e5e17f996856098ff18becaa485680dc8f577b1468e5982be1503e3bc2af71343bd7247aa1922fc2537a1dabc57399fa08cfc8aa29f45b0afa77646b97e65028b7addc595ae70f2bc1d6
+webhook: /_git-sync-grav-devops
+webhook_enabled: '1'
+webhook_secret: 074bfe511180dea0fd751c1647378dece017cd4db7d87a26
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  message: '(Grav GitSync) Automatic Commit'
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false

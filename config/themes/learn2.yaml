@@ -1,0 +1,8 @@
+enabled: true
+top_level_version: false
+show_all_pages: false
+home_url: 'https://eliegavoty.fr/devops'
+github:
+  position: top
+  tree: 'https://github.com/getgrav/grav-skeleton-rtfm-site/blob/develop/'
+  commits: 'https://github.com/getgrav/grav-skeleton-rtfm-site/commits/develop/'
